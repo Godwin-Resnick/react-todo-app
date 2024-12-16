@@ -124,3 +124,27 @@ footer .buttons {
     border: 1px solid rgba(229, 229, 229, 0.5);
     color: #888;
 }
+
+.confirmation-dialog {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.confirmation-dialog button {
+    margin: 5px;
+}
+
+.priority, .due-date {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.sorting-options {
+    margin-bottom: 10px;
+}
+

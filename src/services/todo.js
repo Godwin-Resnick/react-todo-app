@@ -9,17 +9,23 @@ export function getAll() {
         {
             id: 1,
             text: 'Learn Javascript',
-            completed: false
+            completed: false,
+            priority: "Medium",  // Added Priority
+            dueDate: "2024-12-20",  // Added Due Date
         },
         {
             id: 2,
             text: 'Learn React',
-            completed: false
+            completed: false,
+            priority: "High",  // Added Priority
+            dueDate: "2024-12-15",  // Added Due Date
         },
         {
             id: 3,
             text: 'Build a React App',
-            completed: false
+            completed: false,
+            priority: "low",  // Added Priority
+            dueDate: "2024-12-16",  // Added Due Date
         }
     ]
 }
